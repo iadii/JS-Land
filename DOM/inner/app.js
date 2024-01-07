@@ -16,10 +16,14 @@ techAdv.innerHTML = `${innHtm} ${innTex}`
 const js = document.querySelectorAll('h2')
 js[1].textContent = 'Concept of JavaScript'
 
-const cpp = "Concept of  c++"
-const fav = '<h5>It is My Favorite language</h5>'
+js[2].innerText = 'Concept of C++'
+// concatinating two String 
+js[2].innerHTML += '<h5>It is My Favorite language</h5>'
 
-js[2].innerHTML = `${cpp} ${fav}`
+// const cpp = "Concept of  c++"
+// const fav = '<h5>It is My Favorite language</h5>'
+
+// js[2].innerHTML = `${cpp} ${fav}`
 
 // this will markup tag too
 console.log(document.querySelector('body').innerHTML);
@@ -38,3 +42,29 @@ const body = document.querySelector('body')
 
 body.style.backgroundColor = "#16001E"
 body.style.color = '#DADFF7'
+
+
+// changing the type of input by multiple ways
+
+
+
+const inputs =  document.querySelectorAll('input')
+inputs.forEach((item) => console.log(item.getAttribute('type')))
+
+inputs[0].type = "checkbox";
+
+inputs[1].setAttribute('type', 'text')
+
+inputs[2].type = 'color'
+
+inputs[3].setAttribute('type', 'date')
+
+for (const item of inputs) {
+
+    // console.log(item.type);
+
+    console.log(item.getAttribute('type'));
+    
+}
+
+inputs[1].style.te
