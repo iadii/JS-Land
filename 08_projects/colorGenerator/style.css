@@ -1,0 +1,20 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42038f;
+
+}
+
+#btn{
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: 700;
+    display: block;
+}
+.col{
+    /* display: flex; */
+
+}
