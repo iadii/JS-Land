@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- in this if i click button then along with button <p></p> <section></section> will be clicked too -->
+    <!-- same will clicking paragraph section will get clicked but button will not get clicked -->
+    <!-- means other events are getting triggered -->
+    <!-- means events are bubbling itself from bottom layer to top layer(while button click section and paragraph also get triggered up) -->
+    <section onclick="alert('section Clicked')">
+        <p onclick="alert('paragraph Clicked')">
+            I am paragraph:
+            <button onclick="alert('button Clicked')">Click</button>
+        </p>
+    </section>
+</body>
+</html>
