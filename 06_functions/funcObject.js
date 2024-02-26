@@ -35,12 +35,5 @@ console.log(
 //     }
 // }
 
-// console.log( 
-//   "Random : ",
-//   handleObject({
-//     username: "haritimaatri",
-//     name: "Haritima",
-//     "System id": 2022688926,
-//     gender: "female",
-//   })
-// );
+
+
