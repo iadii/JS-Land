@@ -37,7 +37,7 @@ const func = {
 const msg = {
     author : "Aditya",
     person : "vats",
-    mes : "❤️",
+    mes : "fo",
     wel(){
         return `Hey ${this.person} our author ${this.author} want to say that he ${this.mes} to you`
     }
