@@ -39,7 +39,7 @@ const msg = {
     person : "vats",
     mes : "fo",
     wel(){
-        return `Hey ${this.person} our author ${this.author} want to say that he ${this.mes} to you`
+        return `Hey ${this.person} our author ${this.author} want to say ${this.mes} to you`
     }
 }
 
